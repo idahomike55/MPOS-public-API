@@ -42,6 +42,7 @@
             this.lblLastBlock = new System.Windows.Forms.Label();
             this.lblSharesThisRound = new System.Windows.Forms.Label();
             this.textBoxUrl = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -164,17 +165,27 @@
             // 
             // textBoxUrl
             // 
-            this.textBoxUrl.Location = new System.Drawing.Point(19, 182);
+            this.textBoxUrl.Location = new System.Drawing.Point(19, 201);
             this.textBoxUrl.Name = "textBoxUrl";
             this.textBoxUrl.Size = new System.Drawing.Size(237, 20);
             this.textBoxUrl.TabIndex = 13;
             this.textBoxUrl.Text = "http://trc.coin-pool.org/index.php?page=api&action=public";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(19, 182);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(113, 13);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Enter link to pool here:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.textBoxUrl);
             this.Controls.Add(this.lblSharesThisRound);
             this.Controls.Add(this.lblLastBlock);
@@ -212,6 +223,7 @@
         private System.Windows.Forms.Label lblLastBlock;
         private System.Windows.Forms.Label lblSharesThisRound;
         private System.Windows.Forms.TextBox textBoxUrl;
+        private System.Windows.Forms.Label label7;
     }
 }
 
