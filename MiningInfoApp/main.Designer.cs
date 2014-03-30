@@ -33,6 +33,7 @@
             this.aPIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.publicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.getuserstatusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +58,8 @@
             // aPIToolStripMenuItem
             // 
             this.aPIToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.publicToolStripMenuItem});
+            this.publicToolStripMenuItem,
+            this.getuserstatusToolStripMenuItem});
             this.aPIToolStripMenuItem.Name = "aPIToolStripMenuItem";
             this.aPIToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.aPIToolStripMenuItem.Text = "API";
@@ -74,6 +76,13 @@
             this.publicToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.publicToolStripMenuItem.Text = "Public";
             this.publicToolStripMenuItem.Click += new System.EventHandler(this.publicToolStripMenuItem_Click);
+            // 
+            // getuserstatusToolStripMenuItem
+            // 
+            this.getuserstatusToolStripMenuItem.Name = "getuserstatusToolStripMenuItem";
+            this.getuserstatusToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.getuserstatusToolStripMenuItem.Text = "getuserstatus";
+            this.getuserstatusToolStripMenuItem.Click += new System.EventHandler(this.getuserstatusToolStripMenuItem_Click);
             // 
             // main
             // 
@@ -100,5 +109,6 @@
         private System.Windows.Forms.ToolStripMenuItem aPIToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem publicToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem getuserstatusToolStripMenuItem;
     }
 }

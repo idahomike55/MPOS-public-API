@@ -23,5 +23,12 @@ namespace MiningInfoApp
             newMDIChild.MdiParent = this;
             newMDIChild.Show();
         }
+
+        private void getuserstatusToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            getuserstatus newMDIChild = new getuserstatus();
+            newMDIChild.MdiParent = this;
+            newMDIChild.Show();
+        }
     }
 }
