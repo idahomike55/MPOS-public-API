@@ -47,7 +47,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(197, 227);
+            this.button1.Location = new System.Drawing.Point(266, 231);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -165,26 +165,26 @@
             // 
             // textBoxUrl
             // 
-            this.textBoxUrl.Location = new System.Drawing.Point(19, 201);
+            this.textBoxUrl.Location = new System.Drawing.Point(19, 211);
             this.textBoxUrl.Name = "textBoxUrl";
             this.textBoxUrl.Size = new System.Drawing.Size(237, 20);
             this.textBoxUrl.TabIndex = 13;
-            this.textBoxUrl.Text = "http://trc.coin-pool.org/index.php?page=api&action=public";
+            this.textBoxUrl.Text = "http://mzc.cryptopools.com";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(19, 182);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(113, 13);
+            this.label7.Size = new System.Drawing.Size(160, 26);
             this.label7.TabIndex = 14;
-            this.label7.Text = "Enter link to pool here:";
+            this.label7.Text = "Enter pool address here: \r\n(ex. http://mzc.cryptopools.com)";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(353, 266);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBoxUrl);
             this.Controls.Add(this.lblSharesThisRound);
@@ -201,7 +201,9 @@
             this.Controls.Add(this.lblPoolName);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "MPOS API Calls";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Public";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -20,7 +20,9 @@ namespace MiningInfoApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var URL = textBoxUrl.Text;
+            
+            var address = textBoxUrl.Text;
+            var URL = address + "/index.php?page=api&action=public";
             //var URL = "http://trc.coin-pool.org/index.php?page=api&action=public";
             using (var webClient = new System.Net.WebClient())
             {
